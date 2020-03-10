@@ -1,0 +1,28 @@
+2020-02-28 07:03:49 INFO  AdminController:23 - Hello
+2020-02-28 07:04:33 INFO  AdminController:57 - DDD
+2020-02-28 07:06:58 INFO  AdminController:23 - Hello
+2020-02-28 07:08:54 INFO  AdminController:57 - Winner = DDD
+2020-02-28 07:09:52 INFO  AdminController:57 - Winner = DDD
+2020-02-28 16:53:11 INFO  AdminController:56 - Winner = DDD
+2020-02-28 20:27:16 INFO  AdminController:58 - Winner = Apple
+2020-03-03 20:14:37 INFO  AdminController:58 - Winner = Apple
+2020-03-03 20:30:17 INFO  AdminController:58 - Winner = Apple
+2020-03-04 04:32:56 INFO  AdminController:56 - Winner = Apple
+2020-03-04 04:36:00 INFO  AdminController:56 - Winner = Apple
+2020-03-04 04:37:05 INFO  AdminController:56 - Winner = Apple
+2020-03-04 04:38:31 INFO  AdminController:56 - Winner = Apple
+2020-03-04 04:40:14 INFO  AdminController:56 - Winner = Apple
+2020-03-04 04:44:37 INFO  AdminController:56 - Winner = Apple
+2020-03-04 04:47:50 INFO  AdminController:56 - Winner = Apple
+2020-03-04 04:57:10 INFO  AdminController:56 - Winner = Apple
+2020-03-04 04:58:28 INFO  AdminController:56 - Winner = Apple
+2020-03-04 04:59:24 INFO  AdminController:56 - Winner = Apple
+2020-03-04 04:59:48 INFO  AdminController:56 - Winner = Apple
+2020-03-04 05:01:26 INFO  AdminController:56 - Winner = Apple
+2020-03-04 06:12:19 INFO  AdminController:52 - Winner = FactoryCreatedStun
+2020-03-04 06:28:18 INFO  AdminController:52 - Winner = DDD
+2020-03-04 16:15:39 INFO  AdminController:52 - Winner = DDD
+2020-03-04 16:16:28 INFO  AdminController:52 - Winner = DDD
+2020-03-04 16:17:02 INFO  AdminController:52 - Winner = Apple
+2020-03-04 16:37:03 INFO  AdminController:52 - Winner = Apple
+2020-03-10 01:58:07 INFO  AdminController:52 - Winner = Apple
