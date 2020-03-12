@@ -14,27 +14,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WeatherModel implements Subject {
-    private String city;
+    //private String city;
     private User user;
     List<Observer> observers = new ArrayList<>();
 
 
-    public WeatherModel(String city, User user) {
-        this.city = city;
+    public WeatherModel(User user) {
         this.user = user;
         this.registerObserver(user);
     }
 
-    public String getCity() {
-        return city;
-    }
+
 
     public User getUser() {
         return user;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
     }
 
     public void setUser(User user) {
@@ -48,13 +41,12 @@ public class WeatherModel implements Subject {
     }
 
     @Override
-    public void notifyObservers(float temperature) {
+    public void notifyObservers() {
         System.out.println("########################");
         for (Observer observer : observers) {
 
-            String s = get_response(observer.getCity());
-            float temper = Float.parseFloat(s);
-            observer.update(temper);
+            WeatherData weatherData = getWeatherDataFromResponse(observer.getCity());
+            observer.update(weatherData);
         }
         System.out.println("########################");
         System.out.println("All Observers are notified");
@@ -70,22 +62,69 @@ public class WeatherModel implements Subject {
     }
 
     public static void main(String[] args) {
-        System.out.println(get_response("Kyiv"));
+        WeatherData weatherData = getWeatherDataFromResponse("Kyiv");
+        System.out.println("Temperature - " + weatherData.getTemperature() + "| Last update - " + weatherData.getLastUpdate());
+
+        //System.out.println(getTemperatureFromResponse("Kyiv"));
     }
 
-    public static String get_response(String inputCity) {
+//    public static String getTemperatureFromResponse(String inputCity) {
+//        try {
+//
+//            String api_key = "53dd5d3eff5f9bcf16c761d39b22b296";
+//            String format = "xml";
+//            String city = inputCity;
+//
+//            String url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + api_key + "&mode=" + format + "&units=metric";
+//            URL obj = new URL(url);
+//            HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
+//            BufferedReader in = new BufferedReader(
+//                    new InputStreamReader(connection.getInputStream()));
+//            String inputLine;
+//            StringBuffer response = new StringBuffer();
+//            while ((inputLine = in.readLine()) != null) {
+//                response.append(inputLine);
+//            }
+//            in.close();
+//            DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+//            Document document = documentBuilder.parse(new InputSource(new StringReader(response.toString())));
+//
+//            Node root = document.getDocumentElement();
+//            NodeList temperatureElements = ((Element) root).getElementsByTagName("temperature");
+//
+//            NamedNodeMap temperatureAttributes;
+//
+//            for (int i = 0; i < temperatureElements.getLength(); i++) {
+//                temperatureAttributes = temperatureElements.item(i).getAttributes();
+//                for (int j = 0; j < temperatureAttributes.getLength(); j++) {
+//
+//                    if (temperatureAttributes.item(j).getNodeName().equals("value")) {
+//                        String lastUpdate = ((Element) root).getElementsByTagName("lastupdate").item(i).getAttributes().item(i).getNodeValue();
+//                        return temperatureAttributes.item(j).getNodeValue();
+//                    }
+//                    ;
+//
+//                }
+//            }
+//
+//        } catch (Exception e) {
+//            System.out.println(e);
+//            return "Nothing has found2";
+//        }
+//        return "Nothing has found3";
+//    }
+
+
+    public static WeatherData getWeatherDataFromResponse(String city){
         try {
 
             String api_key = "53dd5d3eff5f9bcf16c761d39b22b296";
             String format = "xml";
-            String city = inputCity;
-
             String url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + api_key + "&mode=" + format + "&units=metric";
-            //System.out.println(url);
+
             URL obj = new URL(url);
             HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
-            int responseCode = connection.getResponseCode();
-            //System.out.println("Response Code : " + responseCode);
+
             BufferedReader in = new BufferedReader(
                     new InputStreamReader(connection.getInputStream()));
             String inputLine;
@@ -94,8 +133,6 @@ public class WeatherModel implements Subject {
                 response.append(inputLine);
             }
             in.close();
-            //print in String
-            //System.out.println(response.toString());
 
             DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
             Document document = documentBuilder.parse(new InputSource(new StringReader(response.toString())));
@@ -105,27 +142,39 @@ public class WeatherModel implements Subject {
 
             NamedNodeMap temperatureAttributes;
 
+//            NodeList humidityElements = ((Element) root).getElementsByTagName("humidity");
+//            NamedNodeMap humidityAttributes = humidityElements.item(0).getAttributes();;
+//            System.out.println(humidityAttributes.item(0).getNodeName().);
+//
+//            for(int k=0; k< humidityAttributes.getLength();k++){
+//
+//            }
+
             for (int i = 0; i < temperatureElements.getLength(); i++) {
                 temperatureAttributes = temperatureElements.item(i).getAttributes();
                 for (int j = 0; j < temperatureAttributes.getLength(); j++) {
-                    //System.out.println(tepmeratureAttributes.item(j));
+
                     if (temperatureAttributes.item(j).getNodeName().equals("value")) {
-                        //System.out.println("Temperature in " +city+ " " + temperatureAttributes.item(j).getNodeValue());
+                        float temperature =  Float.parseFloat(temperatureAttributes.item(j).getNodeValue());
+
                         String lastUpdate = ((Element) root).getElementsByTagName("lastupdate").item(i).getAttributes().item(i).getNodeValue();
-                        //System.out.println("Last update = "+ lastUpdate);
-                        return temperatureAttributes.item(j).getNodeValue();
+                        String humidity = ((Element) root).getElementsByTagName("humidity").item(0).getAttributes().item(1).getNodeValue();
+                       // System.out.println(humidity);
+
+                        return new WeatherData(temperature, lastUpdate, humidity);
                     }
-                    ;
 
                 }
             }
 
         } catch (Exception e) {
             System.out.println(e);
-            return "Nothing has found2";
+            return null;
         }
-        return "Nothing has found3";
+        return null;
     }
+
+
 
 
 }

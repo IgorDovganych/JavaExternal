@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8c47b61-a56e-4819-8577-25c6439dfd36" name="Default Changelist" comment="" />
+    <list default="true" id="c8c47b61-a56e-4819-8577-25c6439dfd36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/READMI.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/Controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/Controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/Controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/Controller/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/Controller/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/Test_HTTP_XML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/Test_HTTP_XML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/View/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/View/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/WeatherModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/WeatherModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/weather/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/weather/Controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/Controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/weather/Controller/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/Controller/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/weather/WeatherModel/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/WeatherModel/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/weather/WeatherModel/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/WeatherModel/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/weather/WeatherModel/WeatherModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/WeatherModel/WeatherModel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +35,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1YeHiITKrwFyATjlA7i0TEYNAXw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,9 +47,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task3_v6,7,8.DroidWar/DroidWar" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.WeatherModel">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.weather.Controller.Main" />
       <module name="Task4.Weather" />
@@ -67,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WeatherModel" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WeatherModel" />
         <item itemvalue="Application.Test_HTTP_XML" />
       </list>
     </recent_temporary>
@@ -87,53 +112,78 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1037" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1583869200992">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state x="553" y="115" key="#com.intellij.ide.util.MemberChooser" timestamp="1583950127023">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="553" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583950127023" />
     <state x="1037" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583869200992" />
+    <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583946559099">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1583946559099" />
     <state x="1006" y="212" key="FileChooserDialogImpl" timestamp="1583864610841">
       <screen x="0" y="0" width="2560" height="1032" />
     </state>
     <state x="1006" y="212" key="FileChooserDialogImpl/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583864610841" />
-    <state width="2504" height="116" key="GridCell.Tab.0.bottom" timestamp="1583877237713">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state width="1322" height="350" key="GridCell.Tab.0.bottom" timestamp="1583962235441">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="350" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583962235441" />
     <state width="2504" height="116" key="GridCell.Tab.0.bottom/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583877237713" />
-    <state width="2504" height="116" key="GridCell.Tab.0.center" timestamp="1583877237713">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state width="1322" height="350" key="GridCell.Tab.0.center" timestamp="1583962235441">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="350" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583962235441" />
     <state width="2504" height="116" key="GridCell.Tab.0.center/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583877237713" />
-    <state width="2504" height="116" key="GridCell.Tab.0.left" timestamp="1583877237713">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state width="1322" height="350" key="GridCell.Tab.0.left" timestamp="1583962235441">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="350" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583962235441" />
     <state width="2504" height="116" key="GridCell.Tab.0.left/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583877237713" />
-    <state width="2504" height="116" key="GridCell.Tab.0.right" timestamp="1583877237713">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state width="1322" height="350" key="GridCell.Tab.0.right" timestamp="1583962235441">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="350" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583962235441" />
     <state width="2504" height="116" key="GridCell.Tab.0.right/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583877237713" />
-    <state width="2504" height="116" key="GridCell.Tab.1.bottom" timestamp="1583877237713">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state width="1322" height="119" key="GridCell.Tab.1.bottom" timestamp="1583949747615">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="119" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583949747615" />
     <state width="2504" height="116" key="GridCell.Tab.1.bottom/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583877237713" />
-    <state width="2504" height="116" key="GridCell.Tab.1.center" timestamp="1583877237713">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state width="1322" height="119" key="GridCell.Tab.1.center" timestamp="1583949747615">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="119" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583949747615" />
     <state width="2504" height="116" key="GridCell.Tab.1.center/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583877237713" />
-    <state width="2504" height="116" key="GridCell.Tab.1.left" timestamp="1583877237713">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state width="1322" height="119" key="GridCell.Tab.1.left" timestamp="1583949747615">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="119" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583949747615" />
     <state width="2504" height="116" key="GridCell.Tab.1.left/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583877237713" />
-    <state width="2504" height="116" key="GridCell.Tab.1.right" timestamp="1583877237713">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state width="1322" height="119" key="GridCell.Tab.1.right" timestamp="1583949747615">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="119" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583949747615" />
     <state width="2504" height="116" key="GridCell.Tab.1.right/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583877237713" />
     <state x="914" y="299" key="com.intellij.ide.util.TipDialog" timestamp="1583853120922">
       <screen x="0" y="0" width="2560" height="1032" />
     </state>
     <state x="914" y="299" key="com.intellij.ide.util.TipDialog/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583853120922" />
-    <state x="859" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1583868899522">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state x="458" y="-1" width="672" height="730" key="search.everywhere.popup" timestamp="1583948434162">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="458" y="-1" width="672" height="730" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583948434162" />
     <state x="859" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583868899522" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/weather/WeatherModel/WeatherModel.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

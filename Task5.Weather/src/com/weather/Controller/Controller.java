@@ -23,7 +23,7 @@ public class Controller {
             int choice = Utils.getMenuNumber(1,4);
             switch (choice){
                 case 1://notify all observers
-                    weatherModelmodel.notifyObservers(25);
+                    weatherModelmodel.notifyObservers();
                     break;
 
                 case 2: // add observer

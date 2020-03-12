@@ -4,7 +4,7 @@ public class User implements Observer{
     String name;
     String city;
 
-    float currentTemperatureInCity;
+    WeatherData weatherData;
 
 
     public User(String name, String city) {
@@ -21,8 +21,8 @@ public class User implements Observer{
     }
 
     @Override
-    public void update(float temperature) {
-        this.currentTemperatureInCity = temperature;
-        System.out.println(getName()+": temperature in "+ getCity()+ " updated it's " + temperature + " degrees ");
+    public void update(WeatherData weatherData) {
+        this.weatherData = weatherData;
+        System.out.println(getName()+": temperature in "+ getCity()+ ", it's " +  weatherData.getTemperature() + " degrees `C | Humidity - " + weatherData.getHumidity() +"% | Last update - " + weatherData.getLastUpdate());
     }
 }

@@ -28,12 +28,15 @@ public class Utils {
         arrayofCities.add("London");
         arrayofCities.add("Berlin");
         arrayofCities.add("Moscow");
+        arrayofCities.add("Vien");
+        arrayofCities.add("Rome");
+        arrayofCities.add("Paris");
         String inputCity;
         do{
             Scanner input = new Scanner(System.in);
             inputCity = input.nextLine();
             if(!arrayofCities.contains(inputCity)) {
-                System.out.println("Input is incorrect , enter from following cities Kyiv/London/Berlin/Moscow ");
+                System.out.println("Input is incorrect , enter from following cities Kyiv/London/Berlin/Moscow/Vien/Rome/Paris");
             }
         }while (!arrayofCities.contains(inputCity));
         return inputCity;

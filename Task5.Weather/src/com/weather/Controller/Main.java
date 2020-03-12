@@ -7,7 +7,7 @@ import com.weather.WeatherModel.WeatherModel;
 public class Main {
     public static void main(String[] args) {
 
-        WeatherModel weatherModel = new WeatherModel("Kyiv", new User("Igor", "Kyiv"));
+        WeatherModel weatherModel = new WeatherModel(new User("Igor", "Kyiv"));
         View view = new View();
         Controller controller = new Controller(weatherModel, view);
         controller.start();
