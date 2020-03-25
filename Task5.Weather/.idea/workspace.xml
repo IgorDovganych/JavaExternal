@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8c47b61-a56e-4819-8577-25c6439dfd36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/READMI.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/Controller/Controller.class" afterDir="false" />
@@ -14,13 +12,8 @@
       <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/Observer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/Subject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/WeatherData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/WeatherModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task4.Weather/com/weather/WeatherModel/WeatherModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/weather/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/weather/Controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/Controller/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/weather/Controller/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/Controller/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/weather/WeatherModel/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/WeatherModel/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/weather/WeatherModel/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/WeatherModel/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/weather/WeatherModel/WeatherModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/weather/WeatherModel/WeatherModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,10 +110,11 @@
     </state>
     <state x="553" y="115" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583950127023" />
     <state x="1037" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583869200992" />
-    <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583946559099">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1001" y="361" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585157175249">
+      <screen x="0" y="0" width="2560" height="1032" />
     </state>
     <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1583946559099" />
+    <state x="1001" y="361" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585157175249" />
     <state x="1006" y="212" key="FileChooserDialogImpl" timestamp="1583864610841">
       <screen x="0" y="0" width="2560" height="1032" />
     </state>
@@ -169,6 +163,10 @@
       <screen x="0" y="0" width="2560" height="1032" />
     </state>
     <state x="914" y="299" key="com.intellij.ide.util.TipDialog/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583853120922" />
+    <state x="546" y="41" key="new project wizard" timestamp="1585157532910">
+      <screen x="0" y="0" width="2560" height="1032" />
+    </state>
+    <state x="546" y="41" key="new project wizard/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585157532910" />
     <state x="458" y="-1" width="672" height="730" key="search.everywhere.popup" timestamp="1583948434162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
