@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e2e4767-cf83-4420-819e-f4cf21d9d20e" name="Default Changelist" comment="" />
+    <list default="true" id="3e2e4767-cf83-4420-819e-f4cf21d9d20e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Task4.Shekspeer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3.Droids/Task3_v6,7,8.DroidWarFinalVersion/DroidWar/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3.Droids/Task3_v6,7,8.DroidWarFinalVersion/DroidWar/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Task4.Shekspeer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/PoemModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/PoemModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Test_HTTP_XML.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Test_HTTP_XML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/View/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/View/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/WeatherModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/WeatherModel.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +39,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Zd8InXVXWlwJEvZyJ96bFdzZTA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +51,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/ForMom" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -58,25 +90,50 @@
       <screen x="0" y="0" width="2560" height="1032" />
     </state>
     <state x="771" y="92" key="#Project_Structure/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585157574261" />
-    <state width="2504" height="258" key="GridCell.Tab.0.bottom" timestamp="1585158403006">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585258351095">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1585258351095" />
+    <state x="263" y="21" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1585258339846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="21" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1366.728@0.0.1366.728" timestamp="1585258339846" />
+    <state x="280" y="106" key="FileChooserDialogImpl" timestamp="1585504493763">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="280" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585504493763" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1585450571536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585450571536" />
     <state width="2504" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585158403006" />
-    <state width="2504" height="258" key="GridCell.Tab.0.center" timestamp="1585158403005">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1585450571536">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585450571536" />
     <state width="2504" height="258" key="GridCell.Tab.0.center/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585158403005" />
-    <state width="2504" height="258" key="GridCell.Tab.0.left" timestamp="1585158403005">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1585450571536">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585450571536" />
     <state width="2504" height="258" key="GridCell.Tab.0.left/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585158403005" />
-    <state width="2504" height="258" key="GridCell.Tab.0.right" timestamp="1585158403006">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1585450571536">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585450571536" />
     <state width="2504" height="258" key="GridCell.Tab.0.right/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585158403006" />
-    <state x="546" y="165" key="new project wizard" timestamp="1585158588031">
-      <screen x="0" y="0" width="2560" height="1032" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1585264933092">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585264933092" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1585502479143">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585502479143" />
+    <state x="131" y="0" key="new project wizard" timestamp="1585504475153">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="131" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585504475153" />
     <state x="546" y="165" key="new project wizard/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585158588031" />
   </component>
 </project>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad539b9e-0ee5-43e2-9c0a-5353d975d776" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Task4.Shekspeer/.idea/Task4.Shekspeer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task4.Shekspeer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task4.Shekspeer/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task4.Shekspeer/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task4.Shekspeer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task4.Shekspeer/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task4.Shekspeer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task4.Shekspeer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task4.Shekspeer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task4.Shekspeer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task4.Shekspeer/target/classes/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task4.Shekspeer/target/classes/Controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task4.Shekspeer/target/classes/Controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task4.Shekspeer/target/classes/Controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task4.Shekspeer/target/classes/META-INF/Task4.Shekspeer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task4.Shekspeer/target/classes/Model/PoemModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task4.Shekspeer/target/classes/Model/PoemModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task4.Shekspeer/target/classes/View/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task4.Shekspeer/target/classes/View/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Controller/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Test_HTTP_XML.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/Test_HTTP_XML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/View/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/View/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/WeatherModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/out/production/Task5.Weather/com/weather/WeatherModel/WeatherModel.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZgzOWFqVaAFz4XlOlOWEJfdX79" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad539b9e-0ee5-43e2-9c0a-5353d975d776" name="Default Changelist" comment="" />
+      <created>1585275492791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585275492791</updated>
+    </task>
+    <servers />
+  </component>
+</project>
