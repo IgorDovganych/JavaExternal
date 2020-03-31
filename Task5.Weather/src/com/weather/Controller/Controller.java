@@ -1,7 +1,6 @@
 package com.weather.Controller;
 
 import com.weather.View.View;
-import com.weather.WeatherModel.Observer;
 import com.weather.WeatherModel.User;
 import com.weather.WeatherModel.WeatherModel;
 
