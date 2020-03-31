@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e2e4767-cf83-4420-819e-f4cf21d9d20e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Task3.Droids/Task3_v6,7,8.DroidWarFinalVersion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3.Droids/Task3_v6,7,8.DroidWarFinalVersion/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/PoemModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/PoemModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/View/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/PoemModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/PoemModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task5.Weather/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task5.Weather/src/com/weather/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5.Weather/src/com/weather/Controller/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,25 +111,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="280" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585693176019" />
-    <state width="1322" height="160" key="GridCell.Tab.0.bottom" timestamp="1585692597216">
+    <state width="1322" height="190" key="GridCell.Tab.0.bottom" timestamp="1585694351300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585692597216" />
+    <state width="1322" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585694351300" />
     <state width="2504" height="258" key="GridCell.Tab.0.bottom/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585158403006" />
-    <state width="1322" height="160" key="GridCell.Tab.0.center" timestamp="1585692597216">
+    <state width="1322" height="190" key="GridCell.Tab.0.center" timestamp="1585694351299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585692597216" />
+    <state width="1322" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585694351299" />
     <state width="2504" height="258" key="GridCell.Tab.0.center/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585158403005" />
-    <state width="1322" height="160" key="GridCell.Tab.0.left" timestamp="1585692597216">
+    <state width="1322" height="190" key="GridCell.Tab.0.left" timestamp="1585694351299">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585692597216" />
+    <state width="1322" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585694351299" />
     <state width="2504" height="258" key="GridCell.Tab.0.left/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585158403005" />
-    <state width="1322" height="160" key="GridCell.Tab.0.right" timestamp="1585692597216">
+    <state width="1322" height="190" key="GridCell.Tab.0.right" timestamp="1585694351300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585692597216" />
+    <state width="1322" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585694351300" />
     <state width="2504" height="258" key="GridCell.Tab.0.right/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585158403006" />
     <state width="752" height="286" key="GridCell.Tab.1.bottom" timestamp="1585536860266">
       <screen x="0" y="0" width="1366" height="728" />
