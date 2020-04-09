@@ -5,12 +5,13 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class PoemModel {
+    public static List<String> urls = new LinkedList<>(Arrays.asList(
+            "http://shakespeare.mit.edu/Poetry/sonnet.I.html",
+            "http://shakespeare.mit.edu/Poetry/sonnet.II.html",
+            "http://shakespeare.mit.edu/Poetry/sonnet.III.html"));
 
     public String getPoemString(String url) {
         Document doc;
@@ -25,29 +26,32 @@ public class PoemModel {
             return "Cannot find the poem";
         }
     }
-    public void parsePoem(String poem){
+
+    public Map<String, Integer> parsePoem(String poem){
         List<String> words = new ArrayList<>(Arrays.asList(poem.split("[.|,|\\s+]")));
         removeUnnecessaryWords(words);
-        for (String word:words) {
-            //System.out.println("["+word+"]");
-        }
-        HashMap<String, Integer> str = new HashMap<>();
+//        for (String word:words) {
+//            //System.out.println("["+word+"]");
+//        }
+        Map<String, Integer> mapWordsOnePage = new HashMap<>();
         int i=0;
         for (String word : words) {
-            if (!str.containsKey(word)) {
-                System.out.println(i++ + " - " + word);
-                str.put(word, 0);
+            if (!mapWordsOnePage.containsKey(word)) {
+                //System.out.println(i++ + " - " + word);
+                mapWordsOnePage.put(word, 0);
             }
-            str.put(word, str.get(word) + 1);
+            mapWordsOnePage.put(word, mapWordsOnePage.get(word) + 1);
 
         }
-        System.out.println("===========================/");
         i=0;
-        for (String word : str.keySet()) {
-            System.out.println(i++ +"{"+word+"}" + "==" + str.get(word));
-        }
-        System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
-
+//        for (String word : mapWordsOnePage.keySet()) {
+//            System.out.println(i++ +"{"+word+"}" + "==" + mapWordsOnePage.get(word));
+//        }
+//        System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
+//        System.out.println(mapWordsOnePage.keySet());
+//        System.out.println(mapWordsOnePage.entrySet());
+//
+        return mapWordsOnePage;
     }
 
     public List<String> removeUnnecessaryWords(List<String> words){
@@ -65,7 +69,15 @@ public class PoemModel {
         }
         return words;
     }
-    public static void main(String[] args) {
 
+    public Map<String, Map<String, Integer>> getWordsOfAllUrls(){
+        Map<String, Map<String, Integer>> wordsOfAllUrls = new HashMap<>();
+        //List<String>
+        return wordsOfAllUrls;
     }
+
+    public static void main(String[] args) {
+        System.out.println(urls.size());
+    }
+
 }

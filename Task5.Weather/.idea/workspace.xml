@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8c47b61-a56e-4819-8577-25c6439dfd36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Task4.Shekspeer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task4.Shekspeer/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c8c47b61-a56e-4819-8577-25c6439dfd36" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task4.Shekspeer" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -108,10 +106,10 @@
     </state>
     <state x="534" y="255" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1585264501195" />
     <state x="1001" y="361" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1585157175249" />
-    <state x="537" y="150" key="FileChooserDialogImpl" timestamp="1585419731797">
+    <state x="537" y="150" key="FileChooserDialogImpl" timestamp="1585694796893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="537" y="150" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585419731797" />
+    <state x="537" y="150" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585694796893" />
     <state x="1006" y="212" key="FileChooserDialogImpl/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583864610841" />
     <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1585280304741">
       <screen x="0" y="0" width="1366" height="728" />
@@ -161,10 +159,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585264732017" />
-    <state x="488" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1585419597864">
+    <state x="488" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1585694784642">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585419597864" />
+    <state x="488" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585694784642" />
     <state x="914" y="299" key="com.intellij.ide.util.TipDialog/0.0.2560.1032/-1680.30.1680.1050@0.0.2560.1032" timestamp="1583853120922" />
     <state x="546" y="41" key="new project wizard" timestamp="1585157532910">
       <screen x="0" y="0" width="2560" height="1032" />

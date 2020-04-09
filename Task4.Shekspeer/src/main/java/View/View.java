@@ -1,7 +1,11 @@
 package View;
 
+import java.util.Map;
+
 public class View {
-    static void show(){
-        System.out.println("show");
+    public void show(Map<String, Integer> mapWordsOnePage) {
+        for (String word : mapWordsOnePage.keySet()) {
+            System.out.println(word + " - " + mapWordsOnePage.get(word));
+        }
     }
 }
